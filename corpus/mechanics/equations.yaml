@@ -1,0 +1,112 @@
+equations:
+  - id: newton.second_law
+    name:
+      en: Newton's Second Law
+    expression: "F = m * a"
+    variables:
+      F:
+        quantity: force
+      m:
+        quantity: mass
+      a:
+        quantity: acceleration
+    assumptions:
+      - point_mass
+    domain: "classical"
+
+  - id: orbital.centripetal_acceleration
+    name:
+      en: Centripetal Acceleration
+    expression: "a = v**2 / r"
+    variables:
+      a:
+        quantity: acceleration
+      v:
+        quantity: velocity
+      r:
+        quantity: radius
+    assumptions:
+      - circular_orbit
+
+  - id: orbital.centripetal_force
+    name:
+      en: Centripetal Force
+    expression: "F = m * v**2 / r"
+    variables:
+      F:
+        quantity: force
+      m:
+        quantity: mass
+      v:
+        quantity: velocity
+      r:
+        quantity: radius
+    derives_from:
+      - newton.second_law
+      - orbital.centripetal_acceleration
+
+  - id: gravitation.universal
+    name:
+      en: Newton's Law of Universal Gravitation
+    expression: "F = G * M * m / r**2"
+    variables:
+      F:
+        quantity: force
+      G:
+        quantity: G
+      M:
+        quantity: mass
+      m:
+        quantity: mass
+      r:
+        quantity: radius
+    assumptions:
+      - point_mass
+
+  - id: orbital.circular_velocity
+    name:
+      en: Circular Orbital Velocity
+    expression: "v = sqrt(G * M / r)"
+    variables:
+      v:
+        quantity: velocity
+      G:
+        quantity: G
+      M:
+        quantity: mass
+      r:
+        quantity: radius
+    derives_from:
+      - gravitation.universal
+      - orbital.centripetal_force
+
+  - id: orbital.kepler_third
+    name:
+      en: Kepler's Third Law (Circular)
+    expression: "T = 2 * pi * sqrt(r**3 / (G * M))"
+    variables:
+      T:
+        quantity: period
+      r:
+        quantity: radius
+      G:
+        quantity: G
+      M:
+        quantity: mass
+    derives_from:
+      - orbital.circular_velocity
+
+  - id: pendulum.period
+    name:
+      en: Simple Pendulum Period
+    expression: "T = 2 * pi * sqrt(L / g)"
+    variables:
+      T:
+        quantity: period
+      L:
+        quantity: length
+      g:
+        quantity: g
+    assumptions:
+      - small_angle
+      - point_mass

@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: equation-explorer
+Version: 1.0.0
+Summary: A computable mathematical knowledge graph for exploring and solving physics equations.
+Author-email: Loren <loren@example.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: sympy>=1.12
+Requires-Dist: pint>=0.22
+Requires-Dist: networkx>=3.1
+Requires-Dist: pydantic>=2.4
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: typer>=0.9
+Requires-Dist: rich>=13.0
+Requires-Dist: streamlit>=1.28
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+
+# Equation Explorer
+A computable mathematical knowledge graph for exploring and solving physics equations.

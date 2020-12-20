@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+equation_explorer.egg-info/PKG-INFO
+equation_explorer.egg-info/SOURCES.txt
+equation_explorer.egg-info/dependency_links.txt
+equation_explorer.egg-info/entry_points.txt
+equation_explorer.egg-info/requires.txt
+equation_explorer.egg-info/top_level.txt
