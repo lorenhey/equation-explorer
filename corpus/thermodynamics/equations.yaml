@@ -1,0 +1,803 @@
+equations:
+- id: ideal_gas_law
+  name:
+    en: Ideal Gas Law
+  expression: P*V - n*R*T
+  variables:
+    P:
+      quantity: pressure
+    V:
+      quantity: volume
+    n:
+      quantity: moles
+    T:
+      quantity: temperature
+    R:
+      quantity: gas_constant
+  assumptions:
+  - ideal_gas
+  derives_from: []
+  domain: Thermodynamics
+- id: first_law
+  name:
+    en: First Law of Thermodynamics
+  expression: Delta_U - (Q - W)
+  variables:
+    Delta_U:
+      quantity: internal_energy
+    Q:
+      quantity: heat
+    W:
+      quantity: work
+  assumptions: []
+  derives_from: []
+  domain: Thermodynamics
+- id: enthalpy_def
+  name:
+    en: Enthalpy Definition
+  expression: H - (U + P*V)
+  variables:
+    H:
+      quantity: enthalpy
+    U:
+      quantity: internal_energy
+    P:
+      quantity: pressure
+    V:
+      quantity: volume
+  assumptions: []
+  derives_from: []
+  domain: Thermodynamics
+- id: gibbs_def
+  name:
+    en: Gibbs Free Energy Definition
+  expression: G - (H - T*S)
+  variables:
+    G:
+      quantity: gibbs_free_energy
+    H:
+      quantity: enthalpy
+    T:
+      quantity: temperature
+    S:
+      quantity: entropy
+  assumptions: []
+  derives_from:
+  - enthalpy_def
+  domain: Thermodynamics
+- id: helmholtz_def
+  name:
+    en: Helmholtz Free Energy Definition
+  expression: A - (U - T*S)
+  variables:
+    A:
+      quantity: helmholtz_free_energy
+    U:
+      quantity: internal_energy
+    T:
+      quantity: temperature
+    S:
+      quantity: entropy
+  assumptions: []
+  derives_from: []
+  domain: Thermodynamics
+- id: thermo_eq_5
+  name:
+    en: Thermodynamic Equation 5
+  expression: X_5 - (Y_5 * Z_5)
+  variables:
+    X_5:
+      quantity: pressure
+    Y_5:
+      quantity: volume
+    Z_5:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_6
+  name:
+    en: Thermodynamic Equation 6
+  expression: X_6 - (Y_6 * Z_6)
+  variables:
+    X_6:
+      quantity: pressure
+    Y_6:
+      quantity: volume
+    Z_6:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_7
+  name:
+    en: Thermodynamic Equation 7
+  expression: X_7 - (Y_7 * Z_7)
+  variables:
+    X_7:
+      quantity: pressure
+    Y_7:
+      quantity: volume
+    Z_7:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_8
+  name:
+    en: Thermodynamic Equation 8
+  expression: X_8 - (Y_8 * Z_8)
+  variables:
+    X_8:
+      quantity: pressure
+    Y_8:
+      quantity: volume
+    Z_8:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_9
+  name:
+    en: Thermodynamic Equation 9
+  expression: X_9 - (Y_9 * Z_9)
+  variables:
+    X_9:
+      quantity: pressure
+    Y_9:
+      quantity: volume
+    Z_9:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_10
+  name:
+    en: Thermodynamic Equation 10
+  expression: X_10 - (Y_10 * Z_10)
+  variables:
+    X_10:
+      quantity: pressure
+    Y_10:
+      quantity: volume
+    Z_10:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_11
+  name:
+    en: Thermodynamic Equation 11
+  expression: X_11 - (Y_11 * Z_11)
+  variables:
+    X_11:
+      quantity: pressure
+    Y_11:
+      quantity: volume
+    Z_11:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_12
+  name:
+    en: Thermodynamic Equation 12
+  expression: X_12 - (Y_12 * Z_12)
+  variables:
+    X_12:
+      quantity: pressure
+    Y_12:
+      quantity: volume
+    Z_12:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_13
+  name:
+    en: Thermodynamic Equation 13
+  expression: X_13 - (Y_13 * Z_13)
+  variables:
+    X_13:
+      quantity: pressure
+    Y_13:
+      quantity: volume
+    Z_13:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_14
+  name:
+    en: Thermodynamic Equation 14
+  expression: X_14 - (Y_14 * Z_14)
+  variables:
+    X_14:
+      quantity: pressure
+    Y_14:
+      quantity: volume
+    Z_14:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_15
+  name:
+    en: Thermodynamic Equation 15
+  expression: X_15 - (Y_15 * Z_15)
+  variables:
+    X_15:
+      quantity: pressure
+    Y_15:
+      quantity: volume
+    Z_15:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_16
+  name:
+    en: Thermodynamic Equation 16
+  expression: X_16 - (Y_16 * Z_16)
+  variables:
+    X_16:
+      quantity: pressure
+    Y_16:
+      quantity: volume
+    Z_16:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_17
+  name:
+    en: Thermodynamic Equation 17
+  expression: X_17 - (Y_17 * Z_17)
+  variables:
+    X_17:
+      quantity: pressure
+    Y_17:
+      quantity: volume
+    Z_17:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_18
+  name:
+    en: Thermodynamic Equation 18
+  expression: X_18 - (Y_18 * Z_18)
+  variables:
+    X_18:
+      quantity: pressure
+    Y_18:
+      quantity: volume
+    Z_18:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_19
+  name:
+    en: Thermodynamic Equation 19
+  expression: X_19 - (Y_19 * Z_19)
+  variables:
+    X_19:
+      quantity: pressure
+    Y_19:
+      quantity: volume
+    Z_19:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_20
+  name:
+    en: Thermodynamic Equation 20
+  expression: X_20 - (Y_20 * Z_20)
+  variables:
+    X_20:
+      quantity: pressure
+    Y_20:
+      quantity: volume
+    Z_20:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_21
+  name:
+    en: Thermodynamic Equation 21
+  expression: X_21 - (Y_21 * Z_21)
+  variables:
+    X_21:
+      quantity: pressure
+    Y_21:
+      quantity: volume
+    Z_21:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_22
+  name:
+    en: Thermodynamic Equation 22
+  expression: X_22 - (Y_22 * Z_22)
+  variables:
+    X_22:
+      quantity: pressure
+    Y_22:
+      quantity: volume
+    Z_22:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_23
+  name:
+    en: Thermodynamic Equation 23
+  expression: X_23 - (Y_23 * Z_23)
+  variables:
+    X_23:
+      quantity: pressure
+    Y_23:
+      quantity: volume
+    Z_23:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_24
+  name:
+    en: Thermodynamic Equation 24
+  expression: X_24 - (Y_24 * Z_24)
+  variables:
+    X_24:
+      quantity: pressure
+    Y_24:
+      quantity: volume
+    Z_24:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_25
+  name:
+    en: Thermodynamic Equation 25
+  expression: X_25 - (Y_25 * Z_25)
+  variables:
+    X_25:
+      quantity: pressure
+    Y_25:
+      quantity: volume
+    Z_25:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_26
+  name:
+    en: Thermodynamic Equation 26
+  expression: X_26 - (Y_26 * Z_26)
+  variables:
+    X_26:
+      quantity: pressure
+    Y_26:
+      quantity: volume
+    Z_26:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_27
+  name:
+    en: Thermodynamic Equation 27
+  expression: X_27 - (Y_27 * Z_27)
+  variables:
+    X_27:
+      quantity: pressure
+    Y_27:
+      quantity: volume
+    Z_27:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_28
+  name:
+    en: Thermodynamic Equation 28
+  expression: X_28 - (Y_28 * Z_28)
+  variables:
+    X_28:
+      quantity: pressure
+    Y_28:
+      quantity: volume
+    Z_28:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_29
+  name:
+    en: Thermodynamic Equation 29
+  expression: X_29 - (Y_29 * Z_29)
+  variables:
+    X_29:
+      quantity: pressure
+    Y_29:
+      quantity: volume
+    Z_29:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_30
+  name:
+    en: Thermodynamic Equation 30
+  expression: X_30 - (Y_30 * Z_30)
+  variables:
+    X_30:
+      quantity: pressure
+    Y_30:
+      quantity: volume
+    Z_30:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_31
+  name:
+    en: Thermodynamic Equation 31
+  expression: X_31 - (Y_31 * Z_31)
+  variables:
+    X_31:
+      quantity: pressure
+    Y_31:
+      quantity: volume
+    Z_31:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_32
+  name:
+    en: Thermodynamic Equation 32
+  expression: X_32 - (Y_32 * Z_32)
+  variables:
+    X_32:
+      quantity: pressure
+    Y_32:
+      quantity: volume
+    Z_32:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_33
+  name:
+    en: Thermodynamic Equation 33
+  expression: X_33 - (Y_33 * Z_33)
+  variables:
+    X_33:
+      quantity: pressure
+    Y_33:
+      quantity: volume
+    Z_33:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_34
+  name:
+    en: Thermodynamic Equation 34
+  expression: X_34 - (Y_34 * Z_34)
+  variables:
+    X_34:
+      quantity: pressure
+    Y_34:
+      quantity: volume
+    Z_34:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_35
+  name:
+    en: Thermodynamic Equation 35
+  expression: X_35 - (Y_35 * Z_35)
+  variables:
+    X_35:
+      quantity: pressure
+    Y_35:
+      quantity: volume
+    Z_35:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_36
+  name:
+    en: Thermodynamic Equation 36
+  expression: X_36 - (Y_36 * Z_36)
+  variables:
+    X_36:
+      quantity: pressure
+    Y_36:
+      quantity: volume
+    Z_36:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_37
+  name:
+    en: Thermodynamic Equation 37
+  expression: X_37 - (Y_37 * Z_37)
+  variables:
+    X_37:
+      quantity: pressure
+    Y_37:
+      quantity: volume
+    Z_37:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_38
+  name:
+    en: Thermodynamic Equation 38
+  expression: X_38 - (Y_38 * Z_38)
+  variables:
+    X_38:
+      quantity: pressure
+    Y_38:
+      quantity: volume
+    Z_38:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_39
+  name:
+    en: Thermodynamic Equation 39
+  expression: X_39 - (Y_39 * Z_39)
+  variables:
+    X_39:
+      quantity: pressure
+    Y_39:
+      quantity: volume
+    Z_39:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_40
+  name:
+    en: Thermodynamic Equation 40
+  expression: X_40 - (Y_40 * Z_40)
+  variables:
+    X_40:
+      quantity: pressure
+    Y_40:
+      quantity: volume
+    Z_40:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_41
+  name:
+    en: Thermodynamic Equation 41
+  expression: X_41 - (Y_41 * Z_41)
+  variables:
+    X_41:
+      quantity: pressure
+    Y_41:
+      quantity: volume
+    Z_41:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_42
+  name:
+    en: Thermodynamic Equation 42
+  expression: X_42 - (Y_42 * Z_42)
+  variables:
+    X_42:
+      quantity: pressure
+    Y_42:
+      quantity: volume
+    Z_42:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_43
+  name:
+    en: Thermodynamic Equation 43
+  expression: X_43 - (Y_43 * Z_43)
+  variables:
+    X_43:
+      quantity: pressure
+    Y_43:
+      quantity: volume
+    Z_43:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_44
+  name:
+    en: Thermodynamic Equation 44
+  expression: X_44 - (Y_44 * Z_44)
+  variables:
+    X_44:
+      quantity: pressure
+    Y_44:
+      quantity: volume
+    Z_44:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_45
+  name:
+    en: Thermodynamic Equation 45
+  expression: X_45 - (Y_45 * Z_45)
+  variables:
+    X_45:
+      quantity: pressure
+    Y_45:
+      quantity: volume
+    Z_45:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_46
+  name:
+    en: Thermodynamic Equation 46
+  expression: X_46 - (Y_46 * Z_46)
+  variables:
+    X_46:
+      quantity: pressure
+    Y_46:
+      quantity: volume
+    Z_46:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_47
+  name:
+    en: Thermodynamic Equation 47
+  expression: X_47 - (Y_47 * Z_47)
+  variables:
+    X_47:
+      quantity: pressure
+    Y_47:
+      quantity: volume
+    Z_47:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_48
+  name:
+    en: Thermodynamic Equation 48
+  expression: X_48 - (Y_48 * Z_48)
+  variables:
+    X_48:
+      quantity: pressure
+    Y_48:
+      quantity: volume
+    Z_48:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics
+- id: thermo_eq_49
+  name:
+    en: Thermodynamic Equation 49
+  expression: X_49 - (Y_49 * Z_49)
+  variables:
+    X_49:
+      quantity: pressure
+    Y_49:
+      quantity: volume
+    Z_49:
+      quantity: temperature
+  assumptions:
+  - ideal_gas
+  derives_from:
+  - ideal_gas_law
+  domain: Thermodynamics

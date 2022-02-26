@@ -1,0 +1,88 @@
+quantities:
+- id: electric_field
+  name:
+    en: Electric Field
+  default_symbol: E
+  dimension: M*L/(T**3*I)
+  default_unit: V/m
+  is_vector: true
+- id: magnetic_field
+  name:
+    en: Magnetic Field
+  default_symbol: B
+  dimension: M/(T**2*I)
+  default_unit: T
+  is_vector: true
+- id: charge
+  name:
+    en: Electric Charge
+  default_symbol: q
+  dimension: I*T
+  default_unit: C
+  is_vector: false
+- id: current
+  name:
+    en: Electric Current
+  default_symbol: I
+  dimension: I
+  default_unit: A
+  is_vector: false
+- id: voltage
+  name:
+    en: Voltage
+  default_symbol: V
+  dimension: M*L**2/(T**3*I)
+  default_unit: V
+  is_vector: false
+- id: resistance
+  name:
+    en: Resistance
+  default_symbol: R
+  dimension: M*L**2/(T**3*I**2)
+  default_unit: ohm
+  is_vector: false
+- id: capacitance
+  name:
+    en: Capacitance
+  default_symbol: C
+  dimension: T**4*I**2/(M*L**2)
+  default_unit: F
+  is_vector: false
+- id: inductance
+  name:
+    en: Inductance
+  default_symbol: L
+  dimension: M*L**2/(T**2*I**2)
+  default_unit: H
+  is_vector: false
+constants:
+- id: vacuum_permittivity
+  name:
+    en: Vacuum Permittivity
+  symbol: epsilon_0
+  value: 8.8541878128e-12
+  unit: F/m
+  source: CODATA 2018
+- id: vacuum_permeability
+  name:
+    en: Vacuum Permeability
+  symbol: mu_0
+  value: 1.25663706212e-06
+  unit: N/A**2
+  source: CODATA 2018
+- id: elementary_charge
+  name:
+    en: Elementary Charge
+  symbol: e
+  value: 1.602176634e-19
+  unit: C
+  source: CODATA 2018
+assumptions:
+- id: vacuum
+  name:
+    en: Vacuum
+  description: The medium is a perfect vacuum.
+- id: static_fields
+  name:
+    en: Static Fields
+  description: Fields do not change with time.
