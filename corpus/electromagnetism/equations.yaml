@@ -1,7 +1,7 @@
 equations:
 - id: ohms_law
   name:
-    en: ohm's Law
+    en: Ohm's Law
   expression: V - I*R
   variables:
     V:
