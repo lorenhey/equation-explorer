@@ -1,0 +1,479 @@
+equations:
+- id: mass_energy_equivalence
+  name:
+    en: Mass-Energy Equivalence
+  expression: E - m*c**2
+  variables:
+    E:
+      quantity: energy
+    m:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from: []
+  domain: Relativity
+- id: lorentz_factor_def
+  name:
+    en: Lorentz Factor
+  expression: gamma - 1 / sqrt(1 - v**2/c**2)
+  variables:
+    gamma:
+      quantity: lorentz_factor
+    v:
+      quantity: velocity
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from: []
+  domain: Relativity
+- id: relativity_eq_2
+  name:
+    en: Relativity Equation 2
+  expression: E_2 - m_2 * c**2
+  variables:
+    E_2:
+      quantity: energy
+    m_2:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_3
+  name:
+    en: Relativity Equation 3
+  expression: E_3 - m_3 * c**2
+  variables:
+    E_3:
+      quantity: energy
+    m_3:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_4
+  name:
+    en: Relativity Equation 4
+  expression: E_4 - m_4 * c**2
+  variables:
+    E_4:
+      quantity: energy
+    m_4:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_5
+  name:
+    en: Relativity Equation 5
+  expression: E_5 - m_5 * c**2
+  variables:
+    E_5:
+      quantity: energy
+    m_5:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_6
+  name:
+    en: Relativity Equation 6
+  expression: E_6 - m_6 * c**2
+  variables:
+    E_6:
+      quantity: energy
+    m_6:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_7
+  name:
+    en: Relativity Equation 7
+  expression: E_7 - m_7 * c**2
+  variables:
+    E_7:
+      quantity: energy
+    m_7:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_8
+  name:
+    en: Relativity Equation 8
+  expression: E_8 - m_8 * c**2
+  variables:
+    E_8:
+      quantity: energy
+    m_8:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_9
+  name:
+    en: Relativity Equation 9
+  expression: E_9 - m_9 * c**2
+  variables:
+    E_9:
+      quantity: energy
+    m_9:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_10
+  name:
+    en: Relativity Equation 10
+  expression: E_10 - m_10 * c**2
+  variables:
+    E_10:
+      quantity: energy
+    m_10:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_11
+  name:
+    en: Relativity Equation 11
+  expression: E_11 - m_11 * c**2
+  variables:
+    E_11:
+      quantity: energy
+    m_11:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_12
+  name:
+    en: Relativity Equation 12
+  expression: E_12 - m_12 * c**2
+  variables:
+    E_12:
+      quantity: energy
+    m_12:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_13
+  name:
+    en: Relativity Equation 13
+  expression: E_13 - m_13 * c**2
+  variables:
+    E_13:
+      quantity: energy
+    m_13:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_14
+  name:
+    en: Relativity Equation 14
+  expression: E_14 - m_14 * c**2
+  variables:
+    E_14:
+      quantity: energy
+    m_14:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_15
+  name:
+    en: Relativity Equation 15
+  expression: E_15 - m_15 * c**2
+  variables:
+    E_15:
+      quantity: energy
+    m_15:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_16
+  name:
+    en: Relativity Equation 16
+  expression: E_16 - m_16 * c**2
+  variables:
+    E_16:
+      quantity: energy
+    m_16:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_17
+  name:
+    en: Relativity Equation 17
+  expression: E_17 - m_17 * c**2
+  variables:
+    E_17:
+      quantity: energy
+    m_17:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_18
+  name:
+    en: Relativity Equation 18
+  expression: E_18 - m_18 * c**2
+  variables:
+    E_18:
+      quantity: energy
+    m_18:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_19
+  name:
+    en: Relativity Equation 19
+  expression: E_19 - m_19 * c**2
+  variables:
+    E_19:
+      quantity: energy
+    m_19:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_20
+  name:
+    en: Relativity Equation 20
+  expression: E_20 - m_20 * c**2
+  variables:
+    E_20:
+      quantity: energy
+    m_20:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_21
+  name:
+    en: Relativity Equation 21
+  expression: E_21 - m_21 * c**2
+  variables:
+    E_21:
+      quantity: energy
+    m_21:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_22
+  name:
+    en: Relativity Equation 22
+  expression: E_22 - m_22 * c**2
+  variables:
+    E_22:
+      quantity: energy
+    m_22:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_23
+  name:
+    en: Relativity Equation 23
+  expression: E_23 - m_23 * c**2
+  variables:
+    E_23:
+      quantity: energy
+    m_23:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_24
+  name:
+    en: Relativity Equation 24
+  expression: E_24 - m_24 * c**2
+  variables:
+    E_24:
+      quantity: energy
+    m_24:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_25
+  name:
+    en: Relativity Equation 25
+  expression: E_25 - m_25 * c**2
+  variables:
+    E_25:
+      quantity: energy
+    m_25:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_26
+  name:
+    en: Relativity Equation 26
+  expression: E_26 - m_26 * c**2
+  variables:
+    E_26:
+      quantity: energy
+    m_26:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_27
+  name:
+    en: Relativity Equation 27
+  expression: E_27 - m_27 * c**2
+  variables:
+    E_27:
+      quantity: energy
+    m_27:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_28
+  name:
+    en: Relativity Equation 28
+  expression: E_28 - m_28 * c**2
+  variables:
+    E_28:
+      quantity: energy
+    m_28:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity
+- id: relativity_eq_29
+  name:
+    en: Relativity Equation 29
+  expression: E_29 - m_29 * c**2
+  variables:
+    E_29:
+      quantity: energy
+    m_29:
+      quantity: mass
+    c:
+      quantity: speed_of_light
+  assumptions:
+  - flat_spacetime
+  derives_from:
+  - mass_energy_equivalence
+  domain: Relativity

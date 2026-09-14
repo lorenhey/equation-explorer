@@ -1,0 +1,799 @@
+equations:
+- id: ohms_law
+  name:
+    en: ohm's Law
+  expression: V - I*R
+  variables:
+    V:
+      quantity: voltage
+    I:
+      quantity: current
+    R:
+      quantity: resistance
+  assumptions: []
+  derives_from: []
+  domain: Electromagnetism
+- id: em_eq_1
+  name:
+    en: Electromagnetic Equation 1
+  expression: A_1 - (B_1 + C_1)
+  variables:
+    A_1:
+      quantity: voltage
+    B_1:
+      quantity: electric_field
+    C_1:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_2
+  name:
+    en: Electromagnetic Equation 2
+  expression: A_2 - (B_2 + C_2)
+  variables:
+    A_2:
+      quantity: voltage
+    B_2:
+      quantity: electric_field
+    C_2:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_3
+  name:
+    en: Electromagnetic Equation 3
+  expression: A_3 - (B_3 + C_3)
+  variables:
+    A_3:
+      quantity: voltage
+    B_3:
+      quantity: electric_field
+    C_3:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_4
+  name:
+    en: Electromagnetic Equation 4
+  expression: A_4 - (B_4 + C_4)
+  variables:
+    A_4:
+      quantity: voltage
+    B_4:
+      quantity: electric_field
+    C_4:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_5
+  name:
+    en: Electromagnetic Equation 5
+  expression: A_5 - (B_5 + C_5)
+  variables:
+    A_5:
+      quantity: voltage
+    B_5:
+      quantity: electric_field
+    C_5:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_6
+  name:
+    en: Electromagnetic Equation 6
+  expression: A_6 - (B_6 + C_6)
+  variables:
+    A_6:
+      quantity: voltage
+    B_6:
+      quantity: electric_field
+    C_6:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_7
+  name:
+    en: Electromagnetic Equation 7
+  expression: A_7 - (B_7 + C_7)
+  variables:
+    A_7:
+      quantity: voltage
+    B_7:
+      quantity: electric_field
+    C_7:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_8
+  name:
+    en: Electromagnetic Equation 8
+  expression: A_8 - (B_8 + C_8)
+  variables:
+    A_8:
+      quantity: voltage
+    B_8:
+      quantity: electric_field
+    C_8:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_9
+  name:
+    en: Electromagnetic Equation 9
+  expression: A_9 - (B_9 + C_9)
+  variables:
+    A_9:
+      quantity: voltage
+    B_9:
+      quantity: electric_field
+    C_9:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_10
+  name:
+    en: Electromagnetic Equation 10
+  expression: A_10 - (B_10 + C_10)
+  variables:
+    A_10:
+      quantity: voltage
+    B_10:
+      quantity: electric_field
+    C_10:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_11
+  name:
+    en: Electromagnetic Equation 11
+  expression: A_11 - (B_11 + C_11)
+  variables:
+    A_11:
+      quantity: voltage
+    B_11:
+      quantity: electric_field
+    C_11:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_12
+  name:
+    en: Electromagnetic Equation 12
+  expression: A_12 - (B_12 + C_12)
+  variables:
+    A_12:
+      quantity: voltage
+    B_12:
+      quantity: electric_field
+    C_12:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_13
+  name:
+    en: Electromagnetic Equation 13
+  expression: A_13 - (B_13 + C_13)
+  variables:
+    A_13:
+      quantity: voltage
+    B_13:
+      quantity: electric_field
+    C_13:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_14
+  name:
+    en: Electromagnetic Equation 14
+  expression: A_14 - (B_14 + C_14)
+  variables:
+    A_14:
+      quantity: voltage
+    B_14:
+      quantity: electric_field
+    C_14:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_15
+  name:
+    en: Electromagnetic Equation 15
+  expression: A_15 - (B_15 + C_15)
+  variables:
+    A_15:
+      quantity: voltage
+    B_15:
+      quantity: electric_field
+    C_15:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_16
+  name:
+    en: Electromagnetic Equation 16
+  expression: A_16 - (B_16 + C_16)
+  variables:
+    A_16:
+      quantity: voltage
+    B_16:
+      quantity: electric_field
+    C_16:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_17
+  name:
+    en: Electromagnetic Equation 17
+  expression: A_17 - (B_17 + C_17)
+  variables:
+    A_17:
+      quantity: voltage
+    B_17:
+      quantity: electric_field
+    C_17:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_18
+  name:
+    en: Electromagnetic Equation 18
+  expression: A_18 - (B_18 + C_18)
+  variables:
+    A_18:
+      quantity: voltage
+    B_18:
+      quantity: electric_field
+    C_18:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_19
+  name:
+    en: Electromagnetic Equation 19
+  expression: A_19 - (B_19 + C_19)
+  variables:
+    A_19:
+      quantity: voltage
+    B_19:
+      quantity: electric_field
+    C_19:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_20
+  name:
+    en: Electromagnetic Equation 20
+  expression: A_20 - (B_20 + C_20)
+  variables:
+    A_20:
+      quantity: voltage
+    B_20:
+      quantity: electric_field
+    C_20:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_21
+  name:
+    en: Electromagnetic Equation 21
+  expression: A_21 - (B_21 + C_21)
+  variables:
+    A_21:
+      quantity: voltage
+    B_21:
+      quantity: electric_field
+    C_21:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_22
+  name:
+    en: Electromagnetic Equation 22
+  expression: A_22 - (B_22 + C_22)
+  variables:
+    A_22:
+      quantity: voltage
+    B_22:
+      quantity: electric_field
+    C_22:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_23
+  name:
+    en: Electromagnetic Equation 23
+  expression: A_23 - (B_23 + C_23)
+  variables:
+    A_23:
+      quantity: voltage
+    B_23:
+      quantity: electric_field
+    C_23:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_24
+  name:
+    en: Electromagnetic Equation 24
+  expression: A_24 - (B_24 + C_24)
+  variables:
+    A_24:
+      quantity: voltage
+    B_24:
+      quantity: electric_field
+    C_24:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_25
+  name:
+    en: Electromagnetic Equation 25
+  expression: A_25 - (B_25 + C_25)
+  variables:
+    A_25:
+      quantity: voltage
+    B_25:
+      quantity: electric_field
+    C_25:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_26
+  name:
+    en: Electromagnetic Equation 26
+  expression: A_26 - (B_26 + C_26)
+  variables:
+    A_26:
+      quantity: voltage
+    B_26:
+      quantity: electric_field
+    C_26:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_27
+  name:
+    en: Electromagnetic Equation 27
+  expression: A_27 - (B_27 + C_27)
+  variables:
+    A_27:
+      quantity: voltage
+    B_27:
+      quantity: electric_field
+    C_27:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_28
+  name:
+    en: Electromagnetic Equation 28
+  expression: A_28 - (B_28 + C_28)
+  variables:
+    A_28:
+      quantity: voltage
+    B_28:
+      quantity: electric_field
+    C_28:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_29
+  name:
+    en: Electromagnetic Equation 29
+  expression: A_29 - (B_29 + C_29)
+  variables:
+    A_29:
+      quantity: voltage
+    B_29:
+      quantity: electric_field
+    C_29:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_30
+  name:
+    en: Electromagnetic Equation 30
+  expression: A_30 - (B_30 + C_30)
+  variables:
+    A_30:
+      quantity: voltage
+    B_30:
+      quantity: electric_field
+    C_30:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_31
+  name:
+    en: Electromagnetic Equation 31
+  expression: A_31 - (B_31 + C_31)
+  variables:
+    A_31:
+      quantity: voltage
+    B_31:
+      quantity: electric_field
+    C_31:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_32
+  name:
+    en: Electromagnetic Equation 32
+  expression: A_32 - (B_32 + C_32)
+  variables:
+    A_32:
+      quantity: voltage
+    B_32:
+      quantity: electric_field
+    C_32:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_33
+  name:
+    en: Electromagnetic Equation 33
+  expression: A_33 - (B_33 + C_33)
+  variables:
+    A_33:
+      quantity: voltage
+    B_33:
+      quantity: electric_field
+    C_33:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_34
+  name:
+    en: Electromagnetic Equation 34
+  expression: A_34 - (B_34 + C_34)
+  variables:
+    A_34:
+      quantity: voltage
+    B_34:
+      quantity: electric_field
+    C_34:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_35
+  name:
+    en: Electromagnetic Equation 35
+  expression: A_35 - (B_35 + C_35)
+  variables:
+    A_35:
+      quantity: voltage
+    B_35:
+      quantity: electric_field
+    C_35:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_36
+  name:
+    en: Electromagnetic Equation 36
+  expression: A_36 - (B_36 + C_36)
+  variables:
+    A_36:
+      quantity: voltage
+    B_36:
+      quantity: electric_field
+    C_36:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_37
+  name:
+    en: Electromagnetic Equation 37
+  expression: A_37 - (B_37 + C_37)
+  variables:
+    A_37:
+      quantity: voltage
+    B_37:
+      quantity: electric_field
+    C_37:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_38
+  name:
+    en: Electromagnetic Equation 38
+  expression: A_38 - (B_38 + C_38)
+  variables:
+    A_38:
+      quantity: voltage
+    B_38:
+      quantity: electric_field
+    C_38:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_39
+  name:
+    en: Electromagnetic Equation 39
+  expression: A_39 - (B_39 + C_39)
+  variables:
+    A_39:
+      quantity: voltage
+    B_39:
+      quantity: electric_field
+    C_39:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_40
+  name:
+    en: Electromagnetic Equation 40
+  expression: A_40 - (B_40 + C_40)
+  variables:
+    A_40:
+      quantity: voltage
+    B_40:
+      quantity: electric_field
+    C_40:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_41
+  name:
+    en: Electromagnetic Equation 41
+  expression: A_41 - (B_41 + C_41)
+  variables:
+    A_41:
+      quantity: voltage
+    B_41:
+      quantity: electric_field
+    C_41:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_42
+  name:
+    en: Electromagnetic Equation 42
+  expression: A_42 - (B_42 + C_42)
+  variables:
+    A_42:
+      quantity: voltage
+    B_42:
+      quantity: electric_field
+    C_42:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_43
+  name:
+    en: Electromagnetic Equation 43
+  expression: A_43 - (B_43 + C_43)
+  variables:
+    A_43:
+      quantity: voltage
+    B_43:
+      quantity: electric_field
+    C_43:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_44
+  name:
+    en: Electromagnetic Equation 44
+  expression: A_44 - (B_44 + C_44)
+  variables:
+    A_44:
+      quantity: voltage
+    B_44:
+      quantity: electric_field
+    C_44:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_45
+  name:
+    en: Electromagnetic Equation 45
+  expression: A_45 - (B_45 + C_45)
+  variables:
+    A_45:
+      quantity: voltage
+    B_45:
+      quantity: electric_field
+    C_45:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_46
+  name:
+    en: Electromagnetic Equation 46
+  expression: A_46 - (B_46 + C_46)
+  variables:
+    A_46:
+      quantity: voltage
+    B_46:
+      quantity: electric_field
+    C_46:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_47
+  name:
+    en: Electromagnetic Equation 47
+  expression: A_47 - (B_47 + C_47)
+  variables:
+    A_47:
+      quantity: voltage
+    B_47:
+      quantity: electric_field
+    C_47:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_48
+  name:
+    en: Electromagnetic Equation 48
+  expression: A_48 - (B_48 + C_48)
+  variables:
+    A_48:
+      quantity: voltage
+    B_48:
+      quantity: electric_field
+    C_48:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism
+- id: em_eq_49
+  name:
+    en: Electromagnetic Equation 49
+  expression: A_49 - (B_49 + C_49)
+  variables:
+    A_49:
+      quantity: voltage
+    B_49:
+      quantity: electric_field
+    C_49:
+      quantity: magnetic_field
+  assumptions:
+  - static_fields
+  derives_from:
+  - ohms_law
+  domain: Electromagnetism

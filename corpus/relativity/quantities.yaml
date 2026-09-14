@@ -1,0 +1,49 @@
+quantities:
+- id: mass
+  name:
+    en: Mass
+  default_symbol: m
+  dimension: M
+  default_unit: kg
+  is_vector: false
+- id: energy
+  name:
+    en: Energy
+  default_symbol: E
+  dimension: M*L**2/T**2
+  default_unit: J
+  is_vector: false
+- id: momentum
+  name:
+    en: Momentum
+  default_symbol: p
+  dimension: M*L/T
+  default_unit: kg*m/s
+  is_vector: true
+- id: velocity
+  name:
+    en: Velocity
+  default_symbol: v
+  dimension: L/T
+  default_unit: m/s
+  is_vector: true
+- id: lorentz_factor
+  name:
+    en: Lorentz Factor
+  default_symbol: gamma
+  dimension: '1'
+  default_unit: ''
+  is_vector: false
+constants:
+- id: speed_of_light
+  name:
+    en: Speed of Light
+  symbol: c
+  value: 299792458
+  unit: m/s
+  source: Exact
+assumptions:
+- id: flat_spacetime
+  name:
+    en: Flat Spacetime
+  description: Minkowski spacetime without gravity.

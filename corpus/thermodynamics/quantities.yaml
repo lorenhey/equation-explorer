@@ -1,0 +1,118 @@
+quantities:
+- id: pressure
+  name:
+    en: Pressure
+  default_symbol: P
+  dimension: M/(L*T**2)
+  default_unit: Pa
+  is_vector: false
+- id: volume
+  name:
+    en: Volume
+  default_symbol: V
+  dimension: L**3
+  default_unit: m**3
+  is_vector: false
+- id: temperature
+  name:
+    en: Temperature
+  default_symbol: T
+  dimension: Theta
+  default_unit: K
+  is_vector: false
+- id: moles
+  name:
+    en: Amount of substance
+  default_symbol: n
+  dimension: N
+  default_unit: mol
+  is_vector: false
+- id: internal_energy
+  name:
+    en: Internal Energy
+  default_symbol: U
+  dimension: M*L**2/T**2
+  default_unit: J
+  is_vector: false
+- id: entropy
+  name:
+    en: Entropy
+  default_symbol: S
+  dimension: M*L**2/(T**2*Theta)
+  default_unit: J/K
+  is_vector: false
+- id: enthalpy
+  name:
+    en: Enthalpy
+  default_symbol: H
+  dimension: M*L**2/T**2
+  default_unit: J
+  is_vector: false
+- id: gibbs_free_energy
+  name:
+    en: Gibbs Free Energy
+  default_symbol: G
+  dimension: M*L**2/T**2
+  default_unit: J
+  is_vector: false
+- id: helmholtz_free_energy
+  name:
+    en: Helmholtz Free Energy
+  default_symbol: A
+  dimension: M*L**2/T**2
+  default_unit: J
+  is_vector: false
+- id: heat
+  name:
+    en: Heat
+  default_symbol: Q
+  dimension: M*L**2/T**2
+  default_unit: J
+  is_vector: false
+- id: work
+  name:
+    en: Work
+  default_symbol: W
+  dimension: M*L**2/T**2
+  default_unit: J
+  is_vector: false
+constants:
+- id: gas_constant
+  name:
+    en: Ideal Gas Constant
+  symbol: R
+  value: 8.314462618
+  unit: J/(mol*K)
+  source: CODATA 2018
+- id: boltzmann_constant
+  name:
+    en: Boltzmann Constant
+  symbol: k_B
+  value: 1.380649e-23
+  unit: J/K
+  source: CODATA 2018
+assumptions:
+- id: ideal_gas
+  name:
+    en: Ideal Gas
+  description: The gas behaves ideally, with no intermolecular forces.
+- id: isothermal
+  name:
+    en: Isothermal
+  description: The process occurs at a constant temperature.
+- id: isobaric
+  name:
+    en: Isobaric
+  description: The process occurs at a constant pressure.
+- id: isochoric
+  name:
+    en: Isochoric
+  description: The process occurs at a constant volume.
+- id: adiabatic
+  name:
+    en: Adiabatic
+  description: No heat is exchanged with the environment.
+- id: reversible
+  name:
+    en: Reversible
+  description: The process is thermodynamically reversible.
