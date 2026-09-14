@@ -1,0 +1,2 @@
+[console_scripts]
+eqx = equation_explorer.cli.main:app

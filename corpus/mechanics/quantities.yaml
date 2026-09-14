@@ -1,0 +1,97 @@
+quantities:
+  - id: mass
+    name:
+      en: Mass
+      es: Masa
+    default_symbol: m
+    dimension: "[M]"
+    default_unit: kg
+
+  - id: length
+    name:
+      en: Length
+      es: Longitud
+    default_symbol: L
+    dimension: "[L]"
+    default_unit: m
+
+  - id: radius
+    name:
+      en: Radius
+      es: Radio
+    default_symbol: r
+    dimension: "[L]"
+    default_unit: m
+
+  - id: time
+    name:
+      en: Time
+      es: Tiempo
+    default_symbol: t
+    dimension: "[T]"
+    default_unit: s
+
+  - id: period
+    name:
+      en: Period
+      es: Período
+    default_symbol: T
+    dimension: "[T]"
+    default_unit: s
+
+  - id: velocity
+    name:
+      en: Velocity
+      es: Velocidad
+    default_symbol: v
+    dimension: "[L]/[T]"
+    default_unit: m/s
+
+  - id: acceleration
+    name:
+      en: Acceleration
+      es: Aceleración
+    default_symbol: a
+    dimension: "[L]/[T]^2"
+    default_unit: m/s^2
+
+  - id: force
+    name:
+      en: Force
+      es: Fuerza
+    default_symbol: F
+    dimension: "[M]*[L]/[T]^2"
+    default_unit: N
+
+constants:
+  - id: G
+    name:
+      en: Gravitational Constant
+    symbol: G
+    value: 6.67430e-11
+    unit: m^3/(kg*s^2)
+    source: CODATA 2018
+
+  - id: g
+    name:
+      en: Standard Gravity
+    symbol: g
+    value: 9.80665
+    unit: m/s^2
+    source: standard
+
+assumptions:
+  - id: point_mass
+    name:
+      en: Point Mass
+    description: Objects are treated as dimensionless points.
+
+  - id: small_angle
+    name:
+      en: Small Angle Approximation
+    description: Angle is small enough that sin(theta) ~ theta.
+
+  - id: circular_orbit
+    name:
+      en: Circular Orbit
+    description: The orbit is a perfect circle (eccentricity = 0).
